@@ -97,7 +97,7 @@ img {
 }
 
 section {
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 h1,
