@@ -140,31 +140,6 @@ header {
   overflow: visible;
 }
 
-header::after {
-  content: "";
-  overflow: hidden;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  background-color: var(--Dark-Purple);
-  width: 100vh;
-  height: 100vh;
-  transform-origin: bottom;
-  transform: translate(-50%) scale(20);
-  border-radius: 50%;
-  z-index: -1;
-}
-@media screen and (max-width: 768px) {
-  header::after {
-    transform: translate(-50%) scale(7);
-  }
-}
-@media screen and (max-width: 376px) {
-  header::after {
-    transform: translate(-50%) scale(3);
-  }
-}
-
 .workit__header {
   box-sizing: border-box;
   padding: 0 2.5rem 4rem;
@@ -315,31 +290,6 @@ header::after {
 @media screen and (max-width: 376px) {
   .workit__benefits {
     padding: 9.7rem 1rem 2rem;
-  }
-}
-.workit__benefits::after {
-  content: "";
-  position: absolute;
-  bottom: -6rem;
-  left: 50%;
-  width: 100vh;
-  height: 100vh;
-  transform-origin: bottom;
-  transform: translate(-50%) scale(8);
-  border-radius: 50%;
-  z-index: -3;
-  background: var(--Ghost-White);
-}
-@media screen and (max-width: 768px) {
-  .workit__benefits::after {
-    transform: translate(-50%) scale(5);
-    bottom: -3rem;
-  }
-}
-@media screen and (max-width: 376px) {
-  .workit__benefits::after {
-    transform: translate(-50%) scale(3);
-    bottom: -2rem;
   }
 }
 .workit__benefits-list {

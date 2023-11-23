@@ -158,28 +158,28 @@ header{
     background-position: left -10rem bottom 70%, center bottom 70%, right -4rem bottom 40%;
     overflow: visible;
 }  
-header::after{
+// header::after{
 
-    content:'';
-    overflow:hidden;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    background-color: var(--Dark-Purple);
-    width: 100vh;
-    height: 100vh;
-    transform-origin: bottom;
-    transform: translate(-50%) scale(20);
-    border-radius: 50%;
-    z-index: -1;
-    @media screen and (max-width: 768px){
-        transform: translate(-50%) scale(7);
-    }
+//     content:'';
+//     overflow:hidden;
+//     position: absolute;
+//     bottom: 0;
+//     left: 50%;
+//     background-color: var(--Dark-Purple);
+//     width: 100vh;
+//     height: 100vh;
+//     transform-origin: bottom;
+//     transform: translate(-50%) scale(20);
+//     border-radius: 50%;
+//     z-index: -1;
+//     @media screen and (max-width: 768px){
+//         transform: translate(-50%) scale(7);
+//     }
     
-    @media screen and (max-width: 376px) {
-        transform: translate(-50%) scale(3);
-    }
-}
+//     @media screen and (max-width: 376px) {
+//         transform: translate(-50%) scale(3);
+//     }
+// }
 .workit{
     &__header{
         box-sizing: border-box;
@@ -314,27 +314,27 @@ header::after{
             padding: 9.7rem 1rem 2rem;
            
         }
-        &::after{
-            content: '';
-            position: absolute;
-            bottom: -6rem;
-            left: 50%;
-            width: 100vh;
-            height: 100vh;
-            transform-origin: bottom;
-            transform: translate(-50%) scale(8);
-            border-radius: 50%;
-            z-index: -3;
-            background: var(--Ghost-White);
-            @media screen and (max-width: 768px) {
-                    transform: translate(-50%) scale(5);
-                    bottom: -3rem;
-            }
-            @media screen and (max-width: 376px) {
-                    transform: translate(-50%) scale(3);
-                    bottom: -2rem;
-            }
-        }
+        // &::after{
+        //     content: '';
+        //     position: absolute;
+        //     bottom: -6rem;
+        //     left: 50%;
+        //     width: 100vh;
+        //     height: 100vh;
+        //     transform-origin: bottom;
+        //     transform: translate(-50%) scale(8);
+        //     border-radius: 50%;
+        //     z-index: -3;
+        //     background: var(--Ghost-White);
+        //     @media screen and (max-width: 768px) {
+        //             transform: translate(-50%) scale(5);
+        //             bottom: -3rem;
+        //     }
+        //     @media screen and (max-width: 376px) {
+        //             transform: translate(-50%) scale(3);
+        //             bottom: -2rem;
+        //     }
+        // }
         
         &-list {
                 max-width: 950px;
