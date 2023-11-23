@@ -15,28 +15,29 @@
   </head>
   <body>
     <header>
-      <div class="workit__header-top">
-        <a href="#">
-          <img src="assets/images/logo-light.svg" alt="Logo Light" />
-        </a>
-        <nav>
-          <ul class="workit__nav-list">
-            <li>
-              <a class="workit__nav-link" href="#"> Apply for access </a>
-            </li>
-          </ul>
-        </nav>
+      <div class="workit__header">
+        <div class="workit__header-top">
+          <a href="#">
+            <img src="assets/images/logo-light.svg" alt="Logo Light" />
+          </a>
+          <nav>
+            <ul class="workit__nav-list">
+              <li>
+                <a class="workit__nav-link" href="#"> Apply for access </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <h1 class="workit__main-headline">
+          Data <span class="underlined">tailored</span> to your needs.
+        </h1>
+        <a href="#" class="workit__learn-more-btn link-btn">Learn more</a>
       </div>
-      <h1 class="workit__main-headline">
-        Data <span class="underlined">tailored</span> to your needs.
-      </h1>
-      <a href="#" class="workit__learn-more-btn">Learn more</a>
     </header>
     <main>
-      //look inside the section
-      <section>
-        <ul>
-          <li>
+      <section class="workit__benefits">
+        <ul class="workit__benefits-list">
+          <li class="workit__benefits-item">
             <div>
               <h2 class="workit__benefits-header">Actionable insight</h2>
               <p class="workit__benefits-desc">
@@ -45,7 +46,7 @@
               </p>
             </div>
           </li>
-          <li>
+          <li class="workit__benefits-item">
             <div>
               <h2 class="workit__benefits-header">Data-driven decisions</h2>
               <p class="workit__benefits-desc">
@@ -55,7 +56,7 @@
               </p>
             </div>
           </li>
-          <li>
+          <li class="workit__benefits-item">
             <div>
               <h2 class="workit__benefits-header">Always affordable</h2>
               <p class="workit__benefits-desc">
@@ -67,32 +68,36 @@
           </li>
         </ul>
       </section>
-      <section>
-        <div>
-          <h2 class="workit__cta-header">Be the first to test</h2>
-          <p class="workit__cta-desc">
-            Hi, I'm Louis Graham, the founder of the company. Book a demo call
-            with me to become a beta tester for our app and kickstart your
-            company. Apply for access below and I’ll be in touch to schedule a
-            call.
-          </p>
-          <a href="#" class="workit__cta-link">Apply for access</a>
+      <section class="workit__cta">
+        <div class="workit__cta-container">
+          <div class="workit__cta-card">
+            <h2 class="workit__cta-header">Be the first to test</h2>
+            <p class="workit__cta-desc">
+              Hi, I'm Louis Graham, the founder of the company. Book a demo call
+              with me to become a beta tester for our app and kickstart your
+              company. Apply for access below and I’ll be in touch to schedule a
+              call.
+            </p>
+            <a href="#" class="workit__cta-link">Apply for access</a>
+          </div>
         </div>
       </section>
       <footer>
-        <a href="#">
-          <img src="assets/images/logo-dark.svg" alt="Dark Logo" />
-        </a>
-        <div>
-          <a href="#">
-            <img alt="" src="assets/images/icon-facebook.svg" />
+        <div class="workit__footer">
+          <a href="#" class="workit__footer-logo">
+            <img src="assets/images/logo-dark.svg" alt="Dark Logo" width="90" />
           </a>
-          <a href="#">
-            <img alt="" src="assets/images/icon-twitter.svg" />
-          </a>
-          <a href="#">
-            <img alt="" src="assets/images/icon-instagram.svg" />
-          </a>
+          <div class="workit__footer-contacts">
+            <a href="#">
+              <img alt="" src="assets/images/icon-facebook.svg" />
+            </a>
+            <a href="#">
+              <img alt="" src="assets/images/icon-twitter.svg" />
+            </a>
+            <a href="#">
+              <img alt="" src="assets/images/icon-instagram.svg" />
+            </a>
+          </div>
         </div>
       </footer>
     </main>
