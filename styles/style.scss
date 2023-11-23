@@ -140,7 +140,6 @@ body{
     font-family: 'Manrope';
     font-weight: 400;
     font-size: 18px;
-    overflow-x: hidden;
 }
 
 // General selectors
@@ -160,7 +159,8 @@ header{
     // background: url('../assets/images/bg-pattern-1.svg'), url('../assets/images/image-hero.webp'), url('../assets/images/bg-pattern-2.svg');
     // background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: left -10rem bottom 70%, center bottom 70%, right -4rem bottom 40%;
-    overflow: visible;
+    overflow-x: hidden;
+    overflow-y: visible;
 }  
 header::after{
 
@@ -319,6 +319,7 @@ header::after{
            
         }
         &::after{
+            
             content: '';
             position: absolute;
             bottom: -6rem;
