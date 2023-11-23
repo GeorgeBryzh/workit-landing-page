@@ -55,7 +55,6 @@ html,
 body {
     border: solid;
     height: 100%;
-    width: 100%;
     font-size: 100%;
     line-height: 1;
     font-size: 14px;
@@ -64,6 +63,9 @@ body {
     -webkit-text-size-adjust: 100%;
 }
 
+html{
+    width: 100vw;
+}
 input,
 button,
 textarea {
@@ -131,6 +133,7 @@ h6 {
 
 
 body{
+    width: 100%;
     background-color: var(--White);
     font-family: 'Manrope';
     font-weight: 400;

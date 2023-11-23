@@ -46,14 +46,18 @@ aside {
 
 html,
 body {
+  border: solid;
   height: 100%;
-  width: 100%;
   font-size: 100%;
   line-height: 1;
   font-size: 14px;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+}
+
+html {
+  width: 100vw;
 }
 
 input,
@@ -122,6 +126,7 @@ h6 {
 }
 
 body {
+  width: 100%;
   background-color: var(--White);
   font-family: "Manrope";
   font-weight: 400;
@@ -485,7 +490,6 @@ header::after {
   width: 45.625rem;
   background: var(--Dark-Purple);
   background-position: right bottom -6rem;
-  overflow: visible;
   overflow: visible;
   margin-top: 20rem;
   bottom: 0;
