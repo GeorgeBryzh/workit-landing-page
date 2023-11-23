@@ -141,6 +141,8 @@ header {
   border: solid;
   position: relative;
   background-position: left -10rem bottom 70%, center bottom 70%, right -4rem bottom 40%;
+  overflow: hidden;
+  overflow-x: hidden;
   overflow-y: visible;
 }
 
