@@ -53,6 +53,7 @@ aside {
 
 html,
 body {
+    border: solid;
     height: 100%;
     width: 100%;
     font-size: 100%;
@@ -464,7 +465,6 @@ header::after{
                 width: 45.625rem;
                 background: var(--Dark-Purple);
                 background-position: right bottom -6rem;
-                overflow: visible;
                 overflow: visible;
                 margin-top: 20rem;
                 bottom: 0;
