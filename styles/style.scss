@@ -171,7 +171,7 @@ header{
             background-size: 200rem;
         }
 
-        @media screen and (max-width: 376px) {
+        @media screen and (max-width: 400px) {
             background-size: 100rem;
         }
     }
@@ -186,7 +186,7 @@ header{
             padding: 2rem 2.5rem 2.5rem;
             padding-bottom: 2.5rem;
         }
-        @media screen and (max-width: 376px) {
+        @media screen and (max-width: 400px) {
             padding: 2rem 1rem 9.5rem;
         }
         
@@ -209,7 +209,7 @@ header{
                 background-size: 32rem;
             }
 
-            @media screen and (max-width: 376px) {
+            @media screen and (max-width: 400px) {
                 bottom: -50rem;
                 background-size: 20rem;
             }
@@ -256,7 +256,7 @@ header{
             line-height: 5rem; 
             margin-bottom: 2.44rem;
         }
-        @media screen and (max-width: 376px){
+        @media screen and (max-width: 400px){
                 margin-top: 4.4rem;
                 margin-bottom: 2.5rem;
                 font-size: 3.125rem;
@@ -288,7 +288,7 @@ header{
         @media screen and (max-width: 768px) {
             margin-bottom: 12.7rem;
         }
-        @media screen and (max-width: 376px) {
+        @media screen and (max-width: 400px) {
             margin-bottom: 0rem;
 
         }
@@ -305,7 +305,7 @@ header{
             padding: 12rem 6rem 6rem;
            
         }
-        @media screen and (max-width: 376px) {
+        @media screen and (max-width: 400px) {
             padding: 9.7rem 1rem 4rem;
            
         }
@@ -324,7 +324,7 @@ header{
             @media screen and (max-width: 768px) {
                 background-size: 200rem;
             }
-            @media screen and (max-width: 376px) {
+            @media screen and (max-width: 400px) {
                 background-size: 100rem;
             }
         }
@@ -341,7 +341,7 @@ header{
                     justify-content: stretch;
                     gap: 3rem;
                 }
-                @media screen and (max-width: 376px) {
+                @media screen and (max-width: 400px) {
                     gap: 2.5rem;
                 }
             }
@@ -352,7 +352,7 @@ header{
                 flex-direction: row;
                 gap: 2rem;
             }
-            @media screen and (max-width: 376px) {
+            @media screen and (max-width: 400px) {
                 flex-direction: column;
             }
             &:before {
@@ -397,7 +397,7 @@ header{
                 margin-top: 0;
             }
     
-            @media screen and (max-width: 376px) {
+            @media screen and (max-width: 400px) {
                 text-align: center;
                 margin-top: 1.5rem;
             }
@@ -418,7 +418,7 @@ header{
                 margin-top: 1rem;
             }
     
-            @media screen and (max-width: 376px) {
+            @media screen and (max-width: 400px) {
                 text-align: center;
             }
     
@@ -433,7 +433,7 @@ header{
             @media screen and (max-width: 768px) {
                 padding-top: 1rem;
             }
-            @media screen and (max-width: 376px) {
+            @media screen and (max-width: 400px) {
                 padding: 0.7rem 1rem 0rem;
             }
             &-container{
@@ -450,7 +450,7 @@ header{
                     
                 }
                 
-                @media screen and (max-width: 376px) {
+                @media screen and (max-width: 400px) {
                     background-size: 80%;
                     background-position: top 6.5rem center;
                 }
@@ -471,7 +471,7 @@ header{
                     max-width: 32.125rem;
                     margin-top: 20rem;
                 }
-                @media screen and (max-width: 376px) {
+                @media screen and (max-width: 400px) {
                     width: 100%;
                     padding: 2rem;
                     text-align: center;
@@ -490,7 +490,7 @@ header{
                         background-position: right 1rem center;
                         bottom: -5.5rem;
                     }
-                    @media screen and (max-width: 376px) {
+                    @media screen and (max-width: 400px) {
                         background-position: right 1rem center;
                         bottom: -5.5rem;
                         background: none;
@@ -508,7 +508,7 @@ header{
                         line-height: 3.5rem;
                     }
             
-                    @media screen and (max-width: 376px) {
+                    @media screen and (max-width: 400px) {
                         text-align: center;
                         font-size: 2rem;
                         line-height: 2.5rem;
@@ -527,7 +527,7 @@ header{
                             margin-top: 1.5rem;
                     }
                     
-                    @media screen and (max-width: 376px) {
+                    @media screen and (max-width: 400px) {
                         text-align: center;
                         margin-top: 1rem;
                     }
@@ -564,7 +564,7 @@ header{
             @media screen and (max-width: 768px) {
                 padding: 5rem 2.5rem 7.7rem;
             }
-            @media screen and (max-width: 376px) {
+            @media screen and (max-width: 400px) {
                 padding: 4.7rem 1rem 4.1rem;
             }
             &-logo {

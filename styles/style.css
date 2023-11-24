@@ -150,7 +150,7 @@ header::after {
     background-size: 200rem;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 400px) {
   header::after {
     background-size: 100rem;
   }
@@ -166,7 +166,7 @@ header::after {
     padding-bottom: 2.5rem;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 400px) {
   .workit__header {
     padding: 2rem 1rem 9.5rem;
   }
@@ -191,7 +191,7 @@ header::after {
     background-size: 32rem;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 400px) {
   .workit__header::after {
     bottom: -50rem;
     background-size: 20rem;
@@ -241,7 +241,7 @@ header::after {
     margin-bottom: 2.44rem;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 400px) {
   .workit__main-headline {
     margin-top: 4.4rem;
     margin-bottom: 2.5rem;
@@ -277,7 +277,7 @@ header::after {
     margin-bottom: 12.7rem;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 400px) {
   .workit__learn-more-btn {
     margin-bottom: 0rem;
   }
@@ -298,7 +298,7 @@ header::after {
     padding: 12rem 6rem 6rem;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 400px) {
   .workit__benefits {
     padding: 9.7rem 1rem 4rem;
   }
@@ -320,7 +320,7 @@ header::after {
     background-size: 200rem;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 400px) {
   .workit__benefits::after {
     background-size: 100rem;
   }
@@ -340,7 +340,7 @@ header::after {
     gap: 3rem;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 400px) {
   .workit__benefits-list {
     gap: 2.5rem;
   }
@@ -355,7 +355,7 @@ header::after {
     gap: 2rem;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 400px) {
   .workit__benefits-item {
     flex-direction: column;
   }
@@ -404,7 +404,7 @@ header::after {
     margin-top: 0;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 400px) {
   .workit__benefits-header {
     text-align: center;
     margin-top: 1.5rem;
@@ -429,7 +429,7 @@ header::after {
     margin-top: 1rem;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 400px) {
   .workit__benefits-desc {
     text-align: center;
   }
@@ -442,7 +442,7 @@ header::after {
     padding-top: 1rem;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 400px) {
   .workit__cta {
     padding: 0.7rem 1rem 0rem;
   }
@@ -461,7 +461,7 @@ header::after {
     background-size: 20rem;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 400px) {
   .workit__cta-container {
     background-size: 80%;
     background-position: top 6.5rem center;
@@ -486,7 +486,7 @@ header::after {
     margin-top: 20rem;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 400px) {
   .workit__cta-card {
     width: 100%;
     padding: 2rem;
@@ -510,7 +510,7 @@ header::after {
     bottom: -5.5rem;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 400px) {
   .workit__cta-card::after {
     background-position: right 1rem center;
     bottom: -5.5rem;
@@ -529,7 +529,7 @@ header::after {
     line-height: 3.5rem;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 400px) {
   .workit__cta-header {
     text-align: center;
     font-size: 2rem;
@@ -549,7 +549,7 @@ header::after {
     margin-top: 1.5rem;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 400px) {
   .workit__cta-desc {
     text-align: center;
     margin-top: 1rem;
@@ -597,7 +597,7 @@ header::after {
     padding: 5rem 2.5rem 7.7rem;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 400px) {
   .workit__footer {
     padding: 4.7rem 1rem 4.1rem;
   }
